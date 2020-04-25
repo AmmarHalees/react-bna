@@ -4,9 +4,15 @@
     "description": "A lightweight, before and after image slider component for React",
     "homepage": "https://sliderbna.netlify.app",
     "keywords": [
-        "React",
-        "Boilerplate",
-        "npm"
+            "react",
+            "slider",
+            "before",
+            "after",
+            "bna",
+            "react-bna",
+            "node",
+            "javascript"
+  
     ],
     "repository": {
         "type": "git",
