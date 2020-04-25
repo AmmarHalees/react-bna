@@ -10,7 +10,7 @@
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/cornflourblue/jw-react-npm-boilerplate"
+        "url": "https://github.com/AmmarHalees/react-bna"
     },
     "main": "./lib/SliderBnA.js",
     "license": "MIT",

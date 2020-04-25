@@ -1,5 +1,33 @@
-# jw-react-npm-boilerplate
+# React before and after slider
 
-React Boilerplate Component for npm
+A fast, light-weight before and after image slider for React applications.
 
-Documentation and instructions on how to publish a React component to npm available at http://jasonwatmore.com/post/2018/04/14/react-npm-how-to-publish-a-react-component-to-npm
+## Demo
+
+[Here](https://sliderbna.netlify.app/)
+
+
+### Installing
+
+Through npm
+
+```
+npm i react-bna
+```
+
+## Built With
+
+* [Webpack]
+* [Babel]
+* [ES6]
+
+
+## Authors
+
+* **Ammar Halees** - *Initial work* - [AmmarHalees](https://github.com/AmmarHalees)
+
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
