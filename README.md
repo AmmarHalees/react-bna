@@ -2,14 +2,13 @@
 
 A fast, light-weight before and after image slider for React applications.
 
+
 ## Demo
 
 [Here](https://sliderbna.netlify.app/)
 
 
-### Installing
-
-Through npm
+### Installation
 
 ```
 npm i react-bna
@@ -17,9 +16,9 @@ npm i react-bna
 
 ## Built With
 
-* [Webpack]
-* [Babel]
-* [ES6]
+* Webpack 4
+* Babel 6
+* ES6+
 
 
 ## Authors
