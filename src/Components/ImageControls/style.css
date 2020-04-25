@@ -1,0 +1,30 @@
+.button_group_container {
+
+    width: fit-content;
+    text-align: center;
+    border-radius: 20px;
+    /* width: 60vw; */
+    max-width: 600px;
+    margin: auto;
+    position: absolute;
+    z-index: 500000;
+    bottom: 10%;
+    left: 0px;
+    right: 0px;
+
+    background: rgba(255, 255, 255, 0);
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    backdrop-filter: saturate(180%) blur(20px);
+    /* -webkit-box-shadow: 0 10px 6px -6px #777;
+       -moz-box-shadow: 0 10px 6px -6px #777;
+            box-shadow: 0 10px 6px -6px #777; */
+
+
+}
+
+
+/* .button_group_container:first-child {
+
+    border-right: 1px solid white;
+     
+} */

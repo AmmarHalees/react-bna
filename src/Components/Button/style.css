@@ -1,0 +1,70 @@
+
+
+#_button{
+
+    background: none;
+
+    color:  white;
+
+    box-shadow: none;
+
+    border: none;
+
+    padding: 10px;
+
+    /* margin: 5px; */
+
+    outline: none;
+
+    transition: background 1s;
+
+
+}
+
+
+#_button:hover{
+
+    cursor: pointer;
+
+}
+
+#_button:nth-child(1){
+
+    border-right: 1px solid #ffffff14;
+    border-radius: 20px 0px 0px 20px;
+
+}
+
+
+#_button:nth-child(2){
+
+    border-right: 1px solid #ffffff14;
+
+
+}
+
+
+#_button:nth-child(3){
+
+    border-radius: 0px 20px 20px 0px;
+
+    
+}
+/* 
+#_button:focus{
+
+    background: red;
+
+}
+
+#_button:active{
+
+    background: blue;
+
+} */
+
+/* 
+#_button:focus{
+
+    background: rgba(0, 0, 0, 0.64);
+} */

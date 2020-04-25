@@ -1,0 +1,165 @@
+
+*{
+
+    box-sizing: border-box;
+}
+
+
+#container {
+    /* max-width: 600px;
+    max-height: 600px; */
+
+    overflow: hidden;
+    margin: auto;
+
+    width: fit-content;
+    height: fit-content;
+
+    background: none;
+
+    border-radius: 20px;
+
+}
+
+div figure {
+
+    background-size: cover;
+    /* cover: takes whole dive , contain, exactly the aspect ratio*/
+    background-repeat: no-repeat;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+
+
+    /* height: 50vw; */
+
+}
+
+div figure figure {
+
+    background-size: cover;
+    position: absolute;
+    overflow: hidden;
+    bottom: 0;
+    height: 100%;
+    max-height: 100%;
+    /* filter: grayscale(100%); */
+
+}
+
+/*-----------------------------*/
+
+
+/*--------Input --------*/
+
+
+input[type=range] {
+    -webkit-appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+
+    width: 100%;
+    max-width: 100%;
+
+    padding: 10px;
+    margin: 0px;
+    margin-top: 1px;
+
+    border-radius: 0px 0px 20px 20px;
+    transition: background-color 1s;
+
+    background: rgb(36, 36, 36);
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    backdrop-filter: saturate(180%) blur(20px);
+
+    /* background: rgba(0, 0, 0, 0.59); */
+}
+
+
+/*----Pseudo classes-------*/
+
+input[type=range]:hover {
+
+    cursor: pointer;
+}
+
+input[type=range]:focus {
+    outline: none;
+
+}
+
+input[type=range]:active {
+    outline: none;
+    background-color: #00000000;
+
+}
+
+
+
+/*--------Input range Track Styling------*/
+input[type=range]::-webkit-range-track {
+    height: 150px;
+    width: 98%;
+    background-color: rgba(255, 255, 255, 0.1);
+    position: relative;
+    outline: none;
+}
+
+input[type=range]::-moz-range-track {
+    -moz-appearance: none;
+    height: 150px;
+    width: 98%;
+    background-color: rgba(255, 255, 255, 0.1);
+    position: relative;
+    outline: none;
+}
+
+/*--------Input range Thumb Styling------*/
+
+input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 20px;
+    height: 50px;
+    background: rgba(255, 255, 255, 0.384);
+    border-radius: 10px;
+
+    -webkit-appearance: none;
+    border: none;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.507);
+    box-shadow: 0 0 8px 1px rgba(0, 0, 0, 0.082);
+
+    transition: background 0.3s;
+
+
+}
+
+input[type=range]::-webkit-slider-thumb:hover {
+
+    cursor: move;
+
+    background: rgba(168, 168, 168, 0.226);
+}
+
+input[type=range]::-moz-range-thumb {
+    -moz-appearance: none;
+    width: 20px;
+    height: 50px;
+    background: rgba(255, 255, 255, 0.384);
+    border-radius: 10px;
+
+
+    -webkit-appearance: none;
+    border: none;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background: transparent;
+    border: 4px solid rgba(255, 255, 255, 0.795);
+    box-shadow: 0 0 8px 1px rgba(0, 0, 0, .3);
+}
+

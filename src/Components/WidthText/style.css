@@ -1,0 +1,16 @@
+
+
+
+
+
+#width_container {
+
+    text-align: center;
+    color: white;
+
+    position: absolute;
+
+    z-index: 5000;
+    padding: 10px;
+
+}
