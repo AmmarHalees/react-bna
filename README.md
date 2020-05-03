@@ -18,7 +18,7 @@ npm i react-bna
 ### API
 
 | Prop | Type | Default |
-| :---         |     :---:      |          ---: |
+| :---         |     :---      |          :--- |
 | before   | string : URL or Data URI of the before image     |   |
 | after     | string : URL or Data URI of the after image     |       |
 | showControls     | bool : to show or hide the controls board     |  false     |
