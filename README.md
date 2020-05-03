@@ -27,10 +27,10 @@ npm i react-bna
 | imageHeight     | number : The heigher of the inner image container   |    false   |
 | alt     | string : Alternative text for image      |  Genereic alt text     |
 | errorImage     | string : Fallback image     |    Genereic fallback image   |
-| onErrorBefore     | function : Function to be called if the before image triggers an error event   | library internal onError handler      |
-| onErrorAfter     | function : Function to be called if the after image triggers an error event    | library internal onError handler      |
-| onLoadedBefore     | function : Function to be called once the after image triggers load event | library internal onLoad handler       |
-| onLoadedAfter     | function : Function to be called once the after image triggers load event | library internal onLoad handler     |
+| onErrorBefore     | function : Function to be called if the "before" image triggers an error event   | library internal onError handler      |
+| onErrorAfter     | function : Function to be called if the "after" image triggers an error event    | library internal onError handler      |
+| onLoadedBefore     | function : Function to be called once the "before" image triggers load event | library internal onLoad handler       |
+| onLoadedAfter     | function : Function to be called once the "after" image triggers load event | library internal onLoad handler     |
 
 
 ## Built With
