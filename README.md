@@ -15,15 +15,7 @@ npm i react-bna
 ```
 
 
-| Left-aligned | Center-aligned | Right-aligned |
-| :---         |     :---:      |          ---: |
-| git status   | git status     | git status    |
-| git diff     | git diff       | git diff      |
-
 ### API
-
-```
-
 
 | Prop | Type | Default |
 | :---         |     :---:      |          ---: |
@@ -40,7 +32,6 @@ npm i react-bna
 | onLoadedBefore     | function      |       |
 | onLoadedAfter     | function      |       |
 
-```
 
 ## Built With
 
