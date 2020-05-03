@@ -19,18 +19,18 @@ npm i react-bna
 
 | Prop | Type | Default |
 | :---         |     :---:      |          ---: |
-| before   | string (URL or Data URI)     |   |
-| after     | string (URL or Data URI)      |       |
-| showControls     | bool      |       |
-| showWidth     | bool    |      |
-| divisorBorder     | bool      |       |
-| imageHeight     | Number   |       |
-| alt     | string      |       |
-| errorImage     | string      |       |
-| onErrorBefore     | function      |       |
-| onErrorAfter     | function      |       |
-| onLoadedBefore     | function      |       |
-| onLoadedAfter     | function      |       |
+| before   | string : URL or Data URI of the before image     |   |
+| after     | string : URL or Data URI of the after image     |       |
+| showControls     | bool : to show or hide the controls board     |  false     |
+| showWidth     | bool : to show or hide divisor width   |    false  |
+| divisorBorder     | bool : to show or hide the divisor border      |  false     |
+| imageHeight     | number : The heigher of the inner image container   |    false   |
+| alt     | string : Alternative text for image      |  Genereic alt text     |
+| errorImage     | string : Fallback image     |    Genereic fallback image   |
+| onErrorBefore     | function : Function to be called if the before image triggers an error event   | library internal onError handler      |
+| onErrorAfter     | function : Function to be called if the after image triggers an error event    | library internal onError handler      |
+| onLoadedBefore     | function : Function to be called once the after image triggers load event | library internal onLoad handler       |
+| onLoadedAfter     | function : Function to be called once the after image triggers load event | library internal onLoad handler     |
 
 
 ## Built With
