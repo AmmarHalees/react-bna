@@ -37,8 +37,8 @@ npm i react-bna
 
 ## Built With
 
-* Webpack 4
-* Babel 6
+* Webpack 4.x.x
+* Babel 6.x.x
 * ES6+
 
 
