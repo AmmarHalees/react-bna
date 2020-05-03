@@ -19,8 +19,8 @@ npm i react-bna
 
 | Prop | Type | Default |
 | :---         |     :---      |          :--- |
-| before   | string : URL or Data URI of the before image     |   |
-| after     | string : URL or Data URI of the after image     |       |
+| before (Required)   | string : URL or Data URI of the before image     |   |
+| after (Required)     | string : URL or Data URI of the after image     |       |
 | showControls     | bool : to show or hide the controls board     |  false     |
 | showWidth     | bool : to show or hide divisor width   |    false  |
 | divisorBorder     | bool : to show or hide the divisor border      |  false     |
