@@ -14,6 +14,27 @@ A fast, light-weight before and after image slider for React applications.
 npm i react-bna
 ```
 
+### API
+
+```
+
+| Prop | Type | Default |
+| :---         |     :---:      |          ---: |
+| before   | string (URL or Data URI)     |   |
+| after     | string (URL or Data URI)      |       |
+| showControls     | bool      |       |
+| showWidth     | bool    |      |
+| divisorBorder     | bool      |       |
+| imageHeight     | Number   |       |
+| alt     | string      |       |
+| errorImage     | string      |       |
+| onErrorBefore     | function      |       |
+| onErrorAfter     | function      |       |
+| onLoadedBefore     | function      |       |
+| onLoadedAfter     | function      |       |
+
+```
+
 ## Built With
 
 * Webpack 4
