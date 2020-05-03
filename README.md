@@ -18,6 +18,11 @@ npm i react-bna
 
 ```
 
+| Left-aligned | Center-aligned | Right-aligned |
+| :---         |     :---:      |          ---: |
+| git status   | git status     | git status    |
+| git diff     | git diff       | git diff      
+
 | Prop | Type | Default |
 | :---         |     :---:      |          ---: |
 | before   | string (URL or Data URI)     |   |
